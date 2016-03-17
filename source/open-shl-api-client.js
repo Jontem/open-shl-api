@@ -59,7 +59,6 @@ function getArticles(teams = []) {
             }
         });
     }
-    console.log(requestUrl);
     return getData(requestUrl);
 }
 
@@ -159,7 +158,6 @@ function getGoalkeeperStats(season, sort = '', teams = []) {
                 }
             });
         }
-        console.log(requestUrl);
         resolve(getData(requestUrl));
     });
 }
@@ -195,7 +193,6 @@ function getTeams() {
 }
 
 function getTeam(teamId) {
-    console.log(typeof (teamId));
     return new Promise((resolve, reject) => {
         if (!teamId || typeof (teamId) !== 'string') {
             reject(new Error("teamId must be a string"));
