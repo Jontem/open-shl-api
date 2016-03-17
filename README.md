@@ -1,7 +1,7 @@
 # open-shl-api
 API library for SHL(Swedish Hockey League) openapi.shl.se written in ES6 .
 
-ClientId and ClientSecret is required to access API and be. More info at https://www.shl.se/artikel/74815/.
+ClientId and ClientSecret is required to access API. More info at https://www.shl.se/artikel/74815/.
 
 ## Usage
  ```javascript
